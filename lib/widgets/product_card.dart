@@ -4,6 +4,7 @@ import 'package:work_flutter/models/product.dart';
 
 class ProductCard extends StatelessWidget {
   final Product product;
+
   const ProductCard({
     super.key,
     required this.product,
