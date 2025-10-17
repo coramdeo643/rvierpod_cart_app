@@ -32,7 +32,8 @@ class CartScreen extends ConsumerWidget {
       bottomNavigationBar: cartItemList.isEmpty
           ? null
           : Container(
-              decoration: BoxDecoration(border: Border.all(color: Colors.grey)),
+              decoration: BoxDecoration(
+                  border: Border(top: BorderSide(color: Colors.grey.shade300))),
               padding: EdgeInsets.all(16),
               child: SafeArea(
                   child: Row(
